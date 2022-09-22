@@ -103,7 +103,7 @@ You are required to submit BOTH of the following for review:
 
 ---
 © Done by: Bocar Ly
-Assigment: Module 6 Challenge
+Assigment: Homework6
 
 [Deployed_URL](https://bl-engineer.github.io/homework6/)
 
