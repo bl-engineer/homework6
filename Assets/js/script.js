@@ -120,7 +120,7 @@ function getWeather(city) {
                         var day4 = $('<td>');
                         var day5 = $('<td>');
                         var days = [day1, day2, day3, day4, day5];
-                        for (var i = 0; i < days.length; ++i) {
+                        for (var i = 0; i < days.length; i++) {
 
                             var day = $('<h5>');
                             day.text(m.add(1,'days').format('M/D/YY'));
