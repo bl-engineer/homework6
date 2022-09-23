@@ -44,17 +44,17 @@ function getWeather(city) {
 
                         var weatherPanelTemp = $('<div>');
                         weatherPanelTemp.attr('class', 'm-2 d-block');
-                        weatherPanelTemp.html(`<h6>Temp: ${data.main.temp}&#176;F</h6>`);
+                        weatherPanelTemp.html(`<h5>Temp: ${data.main.temp}&#176;F</h5>`);
                         weatherPanel.append(weatherPanelTemp);
 
                         var weatherPanelWind = $('<div>');
                         weatherPanelWind.attr('class', 'm-2 d-block');
-                        weatherPanelWind.html(`<h6>Wind: ${data.wind.speed} MPH</h6>`);
+                        weatherPanelWind.html(`<h5>Wind: ${data.wind.speed} MPH</h5>`);
                         weatherPanel.append(weatherPanelWind);
 
                         var weatherPanelHumidity = $('<div>');
                         weatherPanelHumidity.attr('class', 'm-2 d-block');
-                        weatherPanelHumidity.html(`<h6>Humidity: ${data.main.humidity}%</h6>`);
+                        weatherPanelHumidity.html(`<h5>Humidity: ${data.main.humidity}%</h5>`);
                         weatherPanel.append(weatherPanelHumidity);
 
                         var weatherPanelUVI = $('<div>');
