@@ -1,5 +1,5 @@
-var Key = "72579456c2145cddcdef6f3d9c3a30b9";
-var city = "Savannah";
+var key = "72579456c2145cddcdef6f3d9c3a30b9";
+var city = "Atlanta";
 
 var content = $('#content');
 var main = $('#main');
@@ -21,14 +21,14 @@ main.on('click', function(event) {
 });
 
 function getWeather(city) {
-    var query = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${Key}&units=imperial`;
+    var query = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=imperial`;
     fetch(query)
         .then(function (res) {
             return res.json();
         })
         .then(function (data) {
             if (data.cod == 200) {
-                var newQuery = `https://api.openweathermap.org/data/2.5/onecall?lat=${data.coord.lat}&lon=${data.coord.lon}&exclude=hourly,minutely&appid=${Key}&units=imperial`; 
+                var newQuery = `https://api.openweathermap.org/data/2.5/onecall?lat=${data.coord.lat}&lon=${data.coord.lon}&exclude=hourly,minutely&appid=${key}&units=imperial`; 
                 fetch(newQuery)
                     .then(function (newRes) {
                         return newRes.json();
