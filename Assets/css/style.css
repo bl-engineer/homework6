@@ -1,0 +1,18 @@
+.w-67{
+    width: 65%;
+    border-color: rgb(184, 181, 181);
+    border: 1px solid;
+}
+
+#history {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+    background-color: rgba(69, 14, 232, 0.943);
+}
+
+div.my-2{
+    background-color:rgb(226, 233, 234);
+}
