@@ -101,6 +101,14 @@ You are required to submit BOTH of the following for review:
 
 # Result: Weather Dashboard
 
+<img width="1407" alt="Screen Shot 2022-09-22 at 9 58 52 PM" src="https://user-images.githubusercontent.com/15242022/191879917-5a76b3af-5cf7-481e-b547-f3c95d8b48bc.png">
+
+<img width="1407" alt="Screen Shot 2022-09-22 at 9 59 04 PM" src="https://user-images.githubusercontent.com/15242022/191880037-25662ec7-b839-46eb-9b36-d12b437c9239.png">
+
+<img width="1407" alt="Screen Shot 2022-09-22 at 9 58 43 PM" src="https://user-images.githubusercontent.com/15242022/191880054-143bfab5-b381-45d5-9d92-a2f1ab7c724e.png">
+
+
+
 ---
 © Done by: Bocar Ly
 Assigment: Homework6
