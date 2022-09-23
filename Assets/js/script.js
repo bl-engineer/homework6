@@ -20,8 +20,8 @@ main.on('click', function(event) {
     }
 });
 
-function getWeather(city) {
-    var query = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=imperial`;
+function getWeather(cityInput) {
+    var query = `https://api.openweathermap.org/data/2.5/weather?q=${cityInput}&appid=${key}&units=imperial`;
     fetch(query)
         .then(function (res) {
             return res.json();
